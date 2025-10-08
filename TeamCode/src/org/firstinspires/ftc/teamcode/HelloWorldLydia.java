@@ -14,5 +14,6 @@ public class HelloWorldLydia extends OpMode {
     @Override
     public void loop (){
         telemetry.addData("Starting","the OpMode");
+        telemetry.addData("Telemetry","Output example");
     }
 }
