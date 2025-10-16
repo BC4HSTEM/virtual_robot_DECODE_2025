@@ -12,7 +12,7 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
             int teamnumber = 16072;
             double moterSpeed = 0.5;
             boolean touchedSensorPressed = true;
-
+               
             telemetry.addData("Team Number");
             telemetry.addData("Motor Speed", motorSpeed);
             telemetry.addData("Touch Sensor", touchedSensorPressed);
