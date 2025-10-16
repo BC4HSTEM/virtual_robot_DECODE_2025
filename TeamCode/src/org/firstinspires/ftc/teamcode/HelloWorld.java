@@ -10,12 +10,12 @@ public class HelloWorld extends OpMode {
         int teamNumber = 16072;
         double motorSpeed = 0.5;
         boolean touchSensorPressed = true;
-        String myName: "Your Name" ;
+        String myName = "Zion Koko";
 
         telemetry.addData("Team Number", teamNumber);
         telemetry.addData("Moter Speed", motorSpeed);
         telemetry.addData("Touch sensor", touchSensorPressed);
-        telemetry.addData("Hello", "World");
+        telemetry.addData("Hello", "Zion Koko");
     }
 
     @Override
